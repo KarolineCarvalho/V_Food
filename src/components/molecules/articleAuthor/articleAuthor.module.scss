@@ -1,3 +1,8 @@
+.articleAuthorContainer {
+  display: flex;
+  align-items: center;
+}
+
 .authorImg {
   height: 30px;
 }
@@ -5,5 +10,10 @@
 .authorName {
   margin-left: 10px;
   font-weight: bold;
+  font-size: 12px;
+}
+
+.articleDate {
+  margin-left: 10px;
   font-size: 12px;
 }

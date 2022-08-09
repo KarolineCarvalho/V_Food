@@ -1,10 +1,13 @@
 import styles from "./articleAuthor.module.scss";
 
-const ArticleAuthor = (props) => {
+const ArticleAuthor = ({ authorImg, articleAuthor, articleDate }) => {
   return (
-    <div className={props.className}>
-      <img src={props.authorImg} className={styles.authorImg} />
-      <p className={styles.authorName}>{props.articleAuthor}</p>
+    <div className={styles.articleAuthorContainer}>
+      <img src={authorImg} className={styles.authorImg} />
+      <div>
+        <p className={styles.authorName}>{articleAuthor}</p>
+        <p className={styles.articleDate}>{articleDate}</p>
+      </div>
     </div>
   );
 };
