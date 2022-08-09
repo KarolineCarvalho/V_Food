@@ -1,0 +1,23 @@
+.nutritionInformation {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 450px;
+  padding: 0 40px;
+  background-color: #e7fafe;
+}
+.nutritionalItems {
+  width: 80vw;
+  height: 30vh;
+
+  &__itemName {
+    border-bottom: 1px solid #888;
+  }
+
+  &__itemValue {
+    /* justify-self: end; */
+    text-align: right;
+    border-bottom: 1px solid #888;
+  }
+}

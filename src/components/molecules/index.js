@@ -33,3 +33,4 @@ export { default as Carousel } from "./Carousel/Carousel";
 export { default as IFrameYTB } from "./IFrameYTB/IFrameYTB";
 export { default as RecipiesInfo } from "./RecipiesInfo/RecipiesInfo";
 export { default as RecipeDetails } from "./RecipeDetails/RecipeDetails";
+export { default as NutritionInformation } from "./nutritionInformation/NutritionInformation";

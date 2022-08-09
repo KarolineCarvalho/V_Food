@@ -15,3 +15,5 @@ export { default as HighlightImage } from "./highlightImage/highlightImage";
 export { default as Divider } from "./Divider/Divider";
 export { default as TimerIcon } from "./TimerIcon/TimerIcon";
 export { default as ForkIcon } from "./ForkIcon/ForkIcon";
+export { default as PrinterIcon } from "./PrinterIcon/PrinterIcon";
+export { default as ShareIcon } from "./ShareIcon/ShareIcon";
