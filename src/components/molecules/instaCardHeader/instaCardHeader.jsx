@@ -1,5 +1,5 @@
 import styles from "./instaCardHeader.module.scss";
-import ProfileImg from "../../../../public/images/perfil_img.png";
+import ProfileImg from "/images/perfil_img.png";
 
 const InstaCardHeader = (props) => {
   /* console.log(props); */
