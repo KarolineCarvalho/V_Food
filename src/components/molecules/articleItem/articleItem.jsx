@@ -12,7 +12,7 @@ const ArticleItem = (props) => {
         authorImg={props.data.authorImg}
         articleAuthor={props.data.articleAuthor}
       />
-      {/* <Divider /> */}
+
       <p className={styles.articleDate}>{props.data.articleDate}</p>
     </div>
   );

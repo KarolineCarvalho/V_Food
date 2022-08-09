@@ -12,3 +12,6 @@ export { default as Heading } from "./heading/heading";
 export { default as Title } from "./title/Title";
 export { default as Description } from "./description/Description";
 export { default as HighlightImage } from "./highlightImage/highlightImage";
+export { default as Divider } from "./Divider/Divider";
+export { default as TimerIcon } from "./TimerIcon/TimerIcon";
+export { default as ForkIcon } from "./ForkIcon/ForkIcon";
