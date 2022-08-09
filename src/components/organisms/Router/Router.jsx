@@ -4,12 +4,14 @@ import Home from "@pages/home";
 import BlogList from "@pages/bloglist";
 import Contact from "@pages/contact";
 import NotFoundPage from "@pages/notfoundpage";
+import Recipes from "@pages/Recipies";
 
 const Router = () => {
   const Route = useRoutes([
-    { path: "/home/*", element: <Home /> },
     { path: "/", element: <Home /> },
-    { path: "/blog", element: <BlogList />},
+    { path: "/home/*", element: <Home /> },
+    { path: "/recipes", element: <Recipes /> },
+    { path: "/blog", element: <BlogList /> },
     { path: "/contact", element: <Contact /> },
     { path: "*", element: <NotFoundPage /> },
   ]);
