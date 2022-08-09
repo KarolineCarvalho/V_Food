@@ -1,0 +1,22 @@
+.RecipeAction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 80px;
+  height: 120px;
+
+  &__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 85px;
+    border-radius: 50px;
+    background-color: #e7fafe;
+  }
+
+  &__label {
+    font-weight: 500;
+  }
+}
