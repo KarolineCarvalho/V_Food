@@ -1,0 +1,14 @@
+.recipeDetails {
+  display: flex;
+  align-items: center;
+
+  &__title {
+    font-weight: bold;
+    text-indent: 10px;
+  }
+
+  &__detail {
+    color: #888;
+    text-indent: 10px;
+  }
+}
