@@ -6,14 +6,29 @@
 .authorImg {
   height: 30px;
 }
+.authorInfo {
+  &__divider {
+    display: none;
+    &-- {
+      display: block;
+    }
+  }
 
-.authorName {
-  margin-left: 10px;
-  font-weight: bold;
-  font-size: 12px;
-}
+  &--inline {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 30%;
+  }
 
-.articleDate {
-  margin-left: 10px;
-  font-size: 12px;
+  &__authorName {
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 12px;
+  }
+
+  &__articleDate {
+    margin-left: 10px;
+    font-size: 12px;
+  }
 }
