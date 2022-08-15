@@ -1,35 +1,13 @@
-import Heading from "../components/atoms/heading/heading";
 import "@/styles/recipesChecklist.scss";
-import recipeVideo from "/images/recipeVideo.png";
-import { useState, useMemo } from "react";
-import {
-  Section,
-  RecipesInfo,
-  RecipesActions,
-  NutritionInformation,
-  CheckItem,
-  ArticleAuthor,
-} from "@molecules";
-import {
-  CardStack,
-  RecipeCard,
-  RecipesContent,
-  SiteBanner,
-} from "../components/molecules";
 
-import { SubscriptionCard, ChefSection, RecipesCarousel } from "@organisms";
-import useFetch from "@hooks/useFetch";
+import { Section } from "@molecules";
+import { SubscriptionCard, RecipesCarousel } from "@organisms";
 import { RecipeSteps } from "../components/organisms";
 
 const RecipesChecklist = () => {
-  const maximumNumberRecipesShown = 3;
-
-  const [recipes, recipesLoading, recipesFetchError] =
-    useFetch("@/../data.json");
-
   return (
     <div className="recipes">
-      <Section>
+      <Section arialabel="Recipe Checklist">
         <RecipeSteps />
       </Section>
 
