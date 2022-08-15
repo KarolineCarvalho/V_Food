@@ -6,9 +6,9 @@ const NutritionInformation = () => {
   const itemValueClass = styles.nutritionalItems__itemValue;
   return (
     <div className={styles.nutritionInformation}>
-      <div>
-        <Heading level={2}>Nutrition Information</Heading>
-        <table className={styles.nutritionalItems}>
+      <Heading level={2}>Nutrition Information</Heading>
+      <table className={styles.nutritionalItems}>
+        <tbody>
           <tr>
             <td className={itemNameClass}>Calories</td>
             <td className={itemValueClass}>219.9 kcal</td>
@@ -22,13 +22,17 @@ const NutritionInformation = () => {
             <td className={itemValueClass}>7.9 g</td>
           </tr>
           <tr>
+            <td className={itemNameClass}>Carbohydrate</td>
+            <td className={itemValueClass}>22.3 g</td>
+          </tr>
+          <tr>
             <td className={itemNameClass}>Cholesterol</td>
             <td className={itemValueClass}>37.4 mg</td>
           </tr>
-        </table>
-      </div>
+        </tbody>
+      </table>
 
-      <p>
+      <p className={styles.nutritionInformation__description}>
         adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
         magna aliqua.
       </p>

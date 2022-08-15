@@ -4,13 +4,13 @@ import Home from "@pages/home";
 import BlogList from "@pages/bloglist";
 import Contact from "@pages/contact";
 import NotFoundPage from "@pages/notfoundpage";
-import Recipes from "@pages/Recipies";
+import RecipesChecklist from "@pages/RecipesChecklist";
 
 const Router = () => {
   const Route = useRoutes([
     { path: "/", element: <Home /> },
     { path: "/home/*", element: <Home /> },
-    { path: "/recipes", element: <Recipes /> },
+    { path: "/recipes", element: <RecipesChecklist /> },
     { path: "/blog", element: <BlogList /> },
     { path: "/contact", element: <Contact /> },
     { path: "*", element: <NotFoundPage /> },

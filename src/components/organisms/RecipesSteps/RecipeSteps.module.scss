@@ -1,0 +1,56 @@
+.recipes {
+  display: grid;
+  width: 100%;
+
+  grid:
+    "title title" 30px
+    "recipeInfo recipeActions" 120px
+    "video nutritionalInfo" 550px
+    "text text" 100px
+    "steps otherRecipes" 510px
+    "steps banner" auto
+    / 65% 35%;
+  row-gap: 20px;
+  &__title {
+    grid-area: title;
+    align-self: center;
+  }
+  &__info {
+    grid-area: recipeInfo;
+    align-self: center;
+  }
+  &__actions {
+    grid-area: recipeActions;
+    display: flex;
+    justify-content: end;
+    height: 100%;
+  }
+  &__video {
+    grid-area: video;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 40px;
+  }
+  &__nutritionInfo {
+    grid-area: nutritionalInfo;
+  }
+  &__text {
+    grid-area: text;
+    align-self: center;
+  }
+  &__steps {
+    grid-area: steps;
+  }
+  &__otherRecipes {
+    grid-area: otherRecipes;
+    justify-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+  }
+  &__banner {
+    grid-area: banner;
+  }
+}
