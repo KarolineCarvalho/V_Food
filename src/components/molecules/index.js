@@ -37,3 +37,4 @@ export { default as NutritionInformation } from "./nutritionInformation/Nutritio
 export { default as CheckItem } from "./CheckItem/CheckItem";
 export { default as RecipesContent } from "./RecipesContent/RecipesContent";
 export { default as RecipesActions } from "./RecipesAction/RecipesAction";
+export { default as AboutUsQnA } from "./AboutUsQnA/AboutUsQnA";
