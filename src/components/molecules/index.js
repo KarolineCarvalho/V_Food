@@ -30,7 +30,7 @@ export { default as Categories } from "./categories/categories";
 export { default as CategoryCard } from "./categoryCard/categoryCard";
 export { default as RecipesGrid } from "./recipesGrid/recipesGrid";
 export { default as Carousel } from "./Carousel/Carousel";
-export { default as IFrameYTB } from "./IFrameYTB/IFrameYTB";
+export { default as IFrameYTB } from "./iFrameYTB/iFrameYTB";
 export { default as RecipesInfo } from "./RecipesInfo/RecipesInfo";
 export { default as RecipeDetails } from "./RecipeDetails/RecipeDetails";
 export { default as NutritionInformation } from "./nutritionInformation/NutritionInformation";
