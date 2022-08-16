@@ -23,7 +23,7 @@ export { default as HighlightAuthor } from "./highlightAuthor/highlightAuthor";
 export { default as InstaCard } from "./instaCard/instaCard";
 export { default as InstaCardHeader } from "./instaCardHeader/instaCardHeader";
 export { default as InstaCardMedia } from "./instaCardMedia/instaCardMedia";
-export { default as InstaCardInfo } from "./InstaCardInfo/InstaCardInfo";
+export { default as InstaCardInfo } from "./instaCardInfo/instaCardInfo";
 export { default as InstaCardActions } from "./instaCardActions/instaCardActions";
 export { default as ChefIllustration } from "./chefIllustration/chefIllustration";
 export { default as Categories } from "./categories/categories";
