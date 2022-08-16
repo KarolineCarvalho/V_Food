@@ -1,0 +1,47 @@
+.aboutUs {
+  display: grid;
+  row-gap: 20px;
+  grid-template:
+    "title title" 90px
+    "author author" 40px
+    "description description" 80px
+    "img img" 600px
+    "QnA socialMedia" auto
+    / 80% 20%;
+
+  &__title {
+    grid-area: title;
+    font-size: 30px;
+    align-self: center;
+    justify-self: center;
+  }
+  &__author {
+    grid-area: author;
+    justify-self: center;
+  }
+  &__description {
+    grid-area: description;
+    align-self: center;
+    margin: 0 100px;
+    text-align: center;
+  }
+  &__img {
+    grid-area: img;
+    border-radius: 30px;
+    width: 100%;
+    height: 100%;
+  }
+  &__QnA {
+    grid-area: QnA;
+  }
+  &__socialMedia {
+    grid-area: socialMedia;
+    justify-self: center;
+    margin-top: 30px;
+    height: 180px;
+    p {
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+  }
+}

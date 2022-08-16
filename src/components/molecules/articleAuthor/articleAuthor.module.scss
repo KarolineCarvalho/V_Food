@@ -9,7 +9,7 @@
 .authorInfo {
   &__divider {
     display: none;
-    &-- {
+    &--inline {
       display: block;
     }
   }
@@ -18,7 +18,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 30%;
+    width: 350px;
   }
 
   &__authorName {
