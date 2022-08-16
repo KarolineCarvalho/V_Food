@@ -12,7 +12,7 @@ const InstaSection = () => {
   const [data, loading, error] = useFetch(url);
 
   const { data: postList } = data || { data: [] };
-  /* console.log(data); */
+
   return (
     <section className={styles.instaCardsContainer}>
       <h5 className={styles.instaCardsContainer_title}>

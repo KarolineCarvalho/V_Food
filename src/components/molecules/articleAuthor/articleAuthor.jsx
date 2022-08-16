@@ -9,7 +9,7 @@ const ArticleAuthor = ({
 }) => {
   const layout = inline === false ? "authorInfo" : "authorInfo--inline";
   const dividerIsVisible = inline === false ? "divider" : "divider--inline";
-  console.log(layout);
+
   return (
     <div className={styles.articleAuthorContainer}>
       <img src={authorImg} className={styles.authorImg} />

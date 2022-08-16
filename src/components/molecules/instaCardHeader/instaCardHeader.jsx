@@ -2,7 +2,6 @@ import styles from "./instaCardHeader.module.scss";
 import ProfileImg from "/images/perfil_img.png";
 
 const InstaCardHeader = (props) => {
-  /* console.log(props); */
   return (
     <div className={styles.headerContainer}>
       <img src={ProfileImg} className={styles.profileImg} />

@@ -2,8 +2,6 @@ import styles from "./instaCardMedia.module.scss";
 import { Carousel } from "@molecules";
 
 const InstaCardMedia = ({ mediaType, mediaLink, carouselItens, postLink }) => {
-  /* console.log(carouselItens); */
-
   function vefifyMediaType(mediaLink, mediaType) {
     return mediaType === "IMAGE" ? (
       <a href={postLink} target="_blank">
@@ -18,10 +16,7 @@ const InstaCardMedia = ({ mediaType, mediaLink, carouselItens, postLink }) => {
 
   function showCarousel(carouselList, mediaType) {
     if (mediaType === "CAROUSEL_ALBUM") {
-      /* console.log(carouselList.data); */
       return carouselList.data.map((carouselItem) => {
-        /* console.log(carouselItem.media_url); */
-
         return (
           <li key={Math.random() * 10} className={styles.carouselItem}>
             {vefifyMediaType(carouselItem.media_url, carouselItem.media_type)}
