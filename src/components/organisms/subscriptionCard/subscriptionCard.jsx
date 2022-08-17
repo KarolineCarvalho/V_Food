@@ -41,7 +41,7 @@ const SubscriptionCard = () => {
           " " +
           styles["card__backgroundImage--left"]
         }
-        src="images/forks-and-salad.png"
+        src="/images/forks-and-salad.png"
         alt=""
         loading="lazy"
       />
@@ -51,7 +51,7 @@ const SubscriptionCard = () => {
           " " +
           styles["card__backgroundImage--float"]
         }
-        src="images/rucula.png"
+        src="/images/rucula.png"
         alt=""
         loading="lazy"
       />
@@ -61,7 +61,7 @@ const SubscriptionCard = () => {
           " " +
           styles["card__backgroundImage--right"]
         }
-        src="images/avocado-salad.png"
+        src="/images/avocado-salad.png"
         alt=""
       />
       <h2 className={styles["card__title"]}>Deliciousness to your inbox</h2>

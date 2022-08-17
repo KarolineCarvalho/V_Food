@@ -12,7 +12,7 @@ export default function Highlights() {
       description:
         "Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim ",
       image:
-        "./images/baked-chicken-wings-asian-style-tomatoes-sauce-plate 1.png",
+        "/images/baked-chicken-wings-asian-style-tomatoes-sauce-plate 1.png",
       id: "1",
       movie: "dQw4w9WgXcQ",
     },
@@ -21,7 +21,7 @@ export default function Highlights() {
       description:
         "Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim ",
       image:
-        "./images/baked-chicken-wings-asian-style-tomatoes-sauce-plate 1.png",
+        "/images/baked-chicken-wings-asian-style-tomatoes-sauce-plate 1.png",
       id: "2",
       movie: "ub1WfnpqXFc",
     },
@@ -30,7 +30,7 @@ export default function Highlights() {
       description:
         "Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim ",
       image:
-        "./images/baked-chicken-wings-asian-style-tomatoes-sauce-plate 1.png",
+        "/images/baked-chicken-wings-asian-style-tomatoes-sauce-plate 1.png",
       id: "3",
       movie: "u54aQPzwbWc",
     },
@@ -39,7 +39,7 @@ export default function Highlights() {
       description:
         "Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim ",
       image:
-        "./images/baked-chicken-wings-asian-style-tomatoes-sauce-plate 1.png",
+        "/images/baked-chicken-wings-asian-style-tomatoes-sauce-plate 1.png",
       id: "4",
       movie: "EZ-MXloBm1Q",
     },
@@ -48,7 +48,7 @@ export default function Highlights() {
       description:
         "Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim ",
       image:
-        "./images/baked-chicken-wings-asian-style-tomatoes-sauce-plate 1.png",
+        "/images/baked-chicken-wings-asian-style-tomatoes-sauce-plate 1.png",
       id: "5",
       movie: "gKCdJSY3n38",
     },

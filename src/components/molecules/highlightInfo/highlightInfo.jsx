@@ -14,7 +14,7 @@ export default function HighlightInfo({
     <div className={styles.highlightInfo}>
       <span className={styles.highlightInfo__hotAlert}>
         <img
-          src="./images/HotRecipes.png"
+          src="/images/HotRecipes.png"
           className={styles.highlightInfo__hotAlertImg}
         />
         Hot Recipes
@@ -55,7 +55,7 @@ export default function HighlightInfo({
         </div>
       </div>
       <img
-        src="./images/handpicked.png"
+        src="/images/handpicked.png"
         alt="A Handpicked Recipes little image"
         className={styles.highlightInfo__handpicked}
       />

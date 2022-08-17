@@ -21,7 +21,7 @@ export default function ArticleFilter(props) {
         />
         <button type="submit" className={styles["article__button--mobile"]}>
           <img
-            src="images/searchIcon.svg"
+            src="/images/searchIcon.svg"
             alt=""
             className={styles.article__buttonImage}
           />

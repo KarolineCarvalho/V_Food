@@ -10,11 +10,11 @@ const CategoryCard = ({ category = "category", color = "neutral" }) => {
         className={styles["categoryCard__backdrop"]}
       />
       <IllustrativeImage
-        src={`images/categories/${category}.png`}
+        src={`/images/categories/${category}.png`}
         className={styles["categoryCard__shadow"]}
       />
       <IllustrativeImage
-        src={`images/categories/${category}.png`}
+        src={`/images/categories/${category}.png`}
         className={styles["categoryCard__image"]}
       />
       <Paragraph className={styles["categoryCard__title"]}>
