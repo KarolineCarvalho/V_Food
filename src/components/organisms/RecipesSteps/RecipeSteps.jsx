@@ -1,26 +1,17 @@
 import styles from "./RecipeSteps.module.scss";
 import recipeVideo from "/images/recipeVideo.png";
-import { useState, useMemo } from "react";
 
 import { Heading } from "@atoms";
-import {
-  Section,
-  RecipesInfo,
-  RecipesActions,
-  NutritionInformation,
-  CheckItem,
-  ArticleAuthor,
-} from "@molecules";
+import { RecipesInfo, RecipesActions, NutritionInformation } from "@molecules";
 import { CardStack, RecipeCard, RecipesContent, SiteBanner } from "@molecules";
 
-import { SubscriptionCard, ChefSection, RecipesCarousel } from "@organisms";
 import useFetch from "@hooks/useFetch";
 
 const RepiceSteps = () => {
   const maximumNumberRecipesShown = 3;
 
   const [recipes, recipesLoading, recipesFetchError] =
-    useFetch("@/../data.json");
+    useFetch("data/data.json");
 
   return (
     <div className={styles.recipes}>
