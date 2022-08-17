@@ -20,7 +20,7 @@ const RepiceSteps = () => {
   const maximumNumberRecipesShown = 3;
 
   const [recipes, recipesLoading, recipesFetchError] =
-    useFetch("@/../data.json");
+    useFetch("/data/data.json");
 
   return (
     <div className={styles.recipes}>
