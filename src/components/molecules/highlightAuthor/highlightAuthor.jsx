@@ -4,7 +4,7 @@ export default function HighlightAuthor() {
   return (
     <div className={styles.HighlightAuthor__container}>
       <img
-        src="./images/Dianne Russel.png"
+        src="/images/Dianne Russel.png"
         alt="A picture of Dianne Russel"
         className={styles.HighlightAuthor__image}
       />

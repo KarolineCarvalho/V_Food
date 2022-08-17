@@ -36,7 +36,7 @@ export default function Card({ card, background, full }) {
         </a>
         <button className={styles["card__heart"]} onClick={handleLike}>
           <img
-            src="./images/card-heart.svg"
+            src="/images/card-heart.svg"
             className={heartImgClasses}
             alt={"Like button for " + card.title}
           />

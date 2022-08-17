@@ -15,10 +15,10 @@ const maximumNumberRecipesShown = 3;
 const maximumNumberArticlesShown = 6;
 
 const BlogArticles = () => {
-  const [data, loading, error] = useFetch("data/articles.json");
+  const [data, loading, error] = useFetch("/data/articles.json");
 
   const [recipes, recipesLoading, recipesFetchError] =
-    useFetch("data/data.json");
+    useFetch("/data/data.json");
   const [filter, setFilter] = useState(() => () => true);
 
   const articles = useMemo(

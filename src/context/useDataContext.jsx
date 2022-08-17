@@ -5,7 +5,7 @@ import useQuery from "@hooks/useQuery";
 export const useDataContext = createContext();
 
 export const DataProvider = ({ children }) => {
-  const [data, loading, error] = useQuery("recipes", "data/data.json");
+  const [data, loading, error] = useQuery("recipes", "/data/data.json");
 
   return (
     <useDataContext.Provider value={{ data, loading, error }}>

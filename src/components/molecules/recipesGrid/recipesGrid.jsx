@@ -5,7 +5,7 @@ import useQuery from "@hooks/useQuery";
 
 const RecipesGrid = () => {
   //const { data, loading } = useData();
-  const [data, loading, error] = useQuery("recipes", "data/articles.json");
+  const [data, loading, error] = useQuery("recipes", "/data/data.json");
 
   return (
     <div>
